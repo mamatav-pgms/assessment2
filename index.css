@@ -1,0 +1,136 @@
+div{
+    white-space: pre;
+}
+
+.page{
+    position: relative;
+    border: 8px groove greenyellow;
+    margin: 0px;
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.outer{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first{
+    border: 5px solid red;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin: 10px;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.dv1{
+    padding: 10px 10px 30px 10px;
+    height: 20px;
+    font-size: 20px;
+    width:25%;
+    text-align: center;
+}
+
+.dv2{
+    padding: 30px 20px 0 20px;
+    height: 20px;
+}
+
+.dv3{
+    line-height: 30px;
+    padding: 20px 30px 0 30px;
+}
+
+.dv4{
+   
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 8px;
+    
+}
+
+.row2{
+    display: flex;
+    
+}
+
+.parent2{
+    border: 8px solid gray;
+    border-radius: 50%;
+    background-color: darkcyan;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+   margin-top: 300px;
+   margin-left: 50px;
+}
+
+p{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+.dv5{
+    border: 5px dashed red ;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin-left: 160px;
+}
+
+h1{
+    color: darkblue;
+}
+
+label{
+    color: red;
+}
+
+.menu{
+    width: 450px;
+    padding-left: 35%;
+    text-align: center;
+
+}
+
+.dv6{
+    border: 5px solid red;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-style: italic;
+    border-radius: 35px;
+    padding: 20px 30px 20px 30px;
+    font-size: 22px;
+}
+
+.menu1{
+    display: flex ;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.clas{
+    background-color: cyan;
+    color: darkblue;
+    border: 3px solid green;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 8px;
+    width: 25%;
+    height: 350px;
+    margin: 30px;
+    font-size: 20px;
+}
